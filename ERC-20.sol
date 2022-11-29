@@ -15,10 +15,10 @@ interface ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 
-contract Baklol is ERC20Interface{ 
+contract MyToken is ERC20Interface{ 
     
-    string public name="Baklol"; 
-    string public symbol ="BKL";
+    string public name="MyToken"; 
+    string public symbol ="MyT";
 
     string public decimal="0";
     uint public override totalSupply;
